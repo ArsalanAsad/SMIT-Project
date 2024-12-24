@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJw8fP6Nn4Ufffn0z7BQzm3H6zLN2bz5T5qGGbiU3BTgOuQkSQ1oU8E/VFS0" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .section-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+        .bg-dark-custom {
+            background-color: #343a40;
+        }
+        .text-dark-custom {
+            color: #343a40;
+        }
+        .hero-section {
+            height: 100vh;
+            background: url('https://via.placeholder.com/1920x1080') center center no-repeat;
+            background-size: cover;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .card {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+            background-color: #222;
+            color: white;
+            padding: 20px 0;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero-section text-center text-white">
+    <div>
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm [Your Name], a passionate Web Developer</p>
+        <a href="#about" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about" class="container py-5">
+    <h2 class="section-title text-center">About Me</h2>
+    <div class="row">
+        <div class="col-lg-6">
+            <img src="https://via.placeholder.com/300" class="img-fluid rounded-circle" alt="Profile Picture">
+        </div>
+        <div class="col-lg-6">
+            <p>Hello! I'm [Your Name], a passionate web developer with a strong background in front-end technologies. I specialize in HTML, CSS, JavaScript, and use frameworks like Bootstrap and React to build responsive and interactive websites. My goal is to create seamless user experiences and beautiful, functional websites.</p>
+            <p>I have a love for continuous learning and a keen interest in the latest web trends and technologies. Outside of coding, I enjoy exploring new places, photography, and reading tech blogs.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="bg-dark-custom text-white py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Skills</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <h4>HTML</h4>
+                <p>Expert in structuring web content</p>
+            </div>
+            <div class="col-md-4">
+                <h4>CSS</h4>
+                <p>Proficient in creating beautiful, responsive layouts</p>
+            </div>
+            <div class="col-md-4">
+                <h4>JavaScript</h4>
+                <p>Interactive elements and dynamic behavior</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="container py-5">
+    <h2 class="section-title text-center">My Projects</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h5 class="card-title">Project One</h5>
+                    <p class="card-text">A description of the project. It can be a website, app, or any development work you've done.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h5 class="card-title">Project Two</h5>
+                    <p class="card-text">A description of the project. It can be a website, app, or any development work you've done.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Project Image">
+                <div class="card-body">
+                    <h5 class="card-title">Project Three</h5>
+                    <p class="card-text">A description of the project. It can be a website, app, or any development work you've done.</p>
+                    <a href="#" class="btn btn-primary">View Project</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-dark-custom text-white py-5">
+    <div class="container">
+        <h2 class="section-title text-center">Contact Me</h2>
+        <div class="text-center">
+            <p>Feel free to get in touch with me for any collaborations, opportunities, or questions.</p>
+            <a href="mailto:your.email@example.com" class="btn btn-light">Email Me</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer text-center">
+    <div class="container">
+        <p>&copy; 2024 [Your Name]. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-github"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap and Font Awesome JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+</body>
+</html>

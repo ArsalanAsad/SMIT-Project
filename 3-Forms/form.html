@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="post">
+    <p>User name
+        <input type="text" name="User name" size="15" maxlength="30" />
+    </p>
+    <p>Password
+        <input type="text" name="Password" size="15" maxlength="30"/>
+    </p>
+    <p>what did you think about this webpage</p>
+    <textarea name="Enter your comments....">Enter your comments....</textarea>
+    <P>Please slecet your favourite genre
+        <br>
+        <input type ="radio" name="genre" value="pop" cheked="checked"/>
+        Pop
+        <input type="radio" name="genre" value="jazz" />
+        Jazz
+        <input type="radio" name="genre" value="tragedy" />
+        Tragedy
+    </P>
+    <p>Please select your favourite music services(s):
+        <br>
+        <input type="checkbox" name="services" value="itune" />
+        Itune
+        <input type="checkbox" name="services" value="fm" />
+        FM
+        <input type="checkbox" name="servcies" value="tv" />
+        TV
+    </p>
+    <p>what devices do you want to listen music on?</p>
+    <select name="devices">
+        <option value="ipod">Ipod</option>
+        <option value="tv">tv</option>
+        <option value="radio">radio</option>
+    </select>
+    <p>Do you play any of the following instruments? (You can select more than one option by holding down control on a PC or command key on a Mac
+    while selecting different options.)</p>
+    <select name="instruments" size="3" multiple="multiple">
+        <option value="guitar">guitar</option>
+        <option value="vialan">vialan</option>
+        <option value="drum">drum</option>
+        <option value="flute">flute</option>
+        <option value="mouthorgan">mouthorgan</option>
+        <option value="keyboard">keyboard</option>
+    </select>
+    <p>upload your favourite song in mp3 format</p>
+    <input type="file" name="user-song"/> <br/>
+    <input type="submit" value="upload"/>
+    <p>submt your email for newsletter</p>
+    <input type="text" name="email"/>
+    <input type="submit" name="subscribe" value="Subscribe"/>
+    <p>Subscribe to our email list:</p>
+    <input type="text" name="email" />
+    <input type="image" src="images/subscribe.jpg" width="100" height="20" />
+    <br/>
+    <button><img src="images/add.gif" alt="add" width="10" height="10" /> Add</button>
+    <input type="hidden" name="bookmark" value="lyrics" />
+    <br/>
+    <br/>
+    <label>Age<input type="text" name="age"/></label><br/>
+    Gender:
+    <input id="female" type="radio" name="gender" value="f"/>
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="m"/>
+    <label for="male">Male</label>
+    <fieldset>
+        <legend>contact details</legend>
+        <label>Email<br/>
+        <input type="text" name="email"/></label><br/>
+        <label>Mobile<br/>
+        <input type="text" name="mobile"/></label><br/>
+        <label>Telephone<br/>
+        <input type="text" name="Telephone"/></label>
+    </fieldset>
+    <label for="username">User name</label>
+    <input type="text" name="username" required="required"/></title><br/>
+    <label for="password">password</label>
+    <input type="password" name="password" required="required"/>
+    <input type="Submit" value="Submit"/>
+    <br/>
+    <br/>
+    <label for="user name">Departrue date:</label>
+    <input type="date" name="depart"/>
+    <input type="submit" value="Submit"/>
+    <br/>
+    <p>Search</p>
+    <input type="search" name="search"/>
+    <input type="submit" value="Search"/>
+    <br/>
+    <p>Search:</p>
+    <input type="search" name="search" placeholder="Enter keyword" />
+    <input type="submit" value="Search" />
+</form>
+</body>
+</html>

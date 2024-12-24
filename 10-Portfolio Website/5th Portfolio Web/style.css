@@ -1,0 +1,75 @@
+/* General styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    /* background-image: url('https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;    
+    background-position: center center;   
+    background-repeat: no-repeat; */
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 1rem;
+    background-color: #598ec4;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .navbar-brand {
+    font-weight: 700;
+}
+
+/* Hero Section */
+#hero {
+    background: url('https://images.pexels.com/photos/5240544/pexels-photo-5240544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 80px 0;
+    margin-top: 70px;
+}
+
+/* About Me Section */
+#about img {
+    border-radius: 50%;
+    max-width: 100%;
+}
+
+/* Skills Section */
+#skills .fa {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Projects Section */
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+footer .fab {
+    color: #007bff;
+}
+
+footer .fab:hover {
+    color: #0056b3;
+}
