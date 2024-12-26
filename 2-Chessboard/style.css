@@ -30,7 +30,7 @@
     background-color: white;
 } */
 
-body {
+/* body {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,4 +59,34 @@ body {
     height: 50px;
     width: 50px;
     background-color: white;
+} */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    border: 20px solid rgb(40,20,20);
+}
+
+.row {
+    display: contents;
+}
+
+.white {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+
+.black {
+    background-color: black;
+    height: 50px;
+    width: 50px;
 }
